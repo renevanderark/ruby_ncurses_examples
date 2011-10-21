@@ -30,6 +30,7 @@ module Util
 		return [rows[0], cols[0]]
 	end
 
+	# Borrowed code!! TODO: where did I find this??
 	def self.read_line(y, x,
               window = Ncurses.stdscr,
               max_len = (window.getmaxx - x - 1),
