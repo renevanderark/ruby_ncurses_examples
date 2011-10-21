@@ -6,4 +6,4 @@ Currently we have the example script, aptly named 'example.rb' which shows you t
 One gem dependency of course:
 ncurses >= 1.3.1
 
-.. image:: https://github.com/renevanderark/ruby_ncurses_examples/blob/master/img/screenshot.png
+.. image:: https://github.com/renevanderark/ruby_ncurses_examples/raw/master/img/screenshot.png
