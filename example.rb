@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
 
 require "rubygems"
+require "ncurses"
 require "settings"
 require "filepicker"
 
