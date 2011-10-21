@@ -8,10 +8,7 @@ require "filepicker"
 begin
 	window = Ncurses.initscr
 	Settings.do
-	filename = nil
-	while(filename.nil?)
-		filename = FilePicker.new(window, :header => "Open file").pick_file
-	end
+	filename = FilePicker.new(window, :header => "Open file").pick_file
 	if filename
 		Util.alert(window, "Picked filename: #{filename}") 
 	else
